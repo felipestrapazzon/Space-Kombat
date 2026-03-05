@@ -6,11 +6,11 @@ O algoritmo do jogo funciona como um ciclo que roda o tempo todo enquanto o jogo
 
 Primeiro o jogo inicializa todas as variáveis, como posição do jogador, inimigos, tiros, pontuação e o fundo do mapa. Também cria as estrelas no fundo para dar a sensação de movimento no espaço.
 
-Depois disso o jogo entra no menu inicial, onde o jogador pode escolher começar o jogo, ver as instruções ou sair.
+_Depois disso o jogo entra no menu inicial, onde o jogador pode escolher começar o jogo, ver as instruções ou sair._
 
-Quando o jogo começa, o programa passa a repetir um loop principal que faz três coisas principais:
+# **Quando o jogo começa, o programa passa a repetir um loop principal que faz três coisas principais:**
 
-Desenha tudo na tela, o jogo monta um mapa usando uma matriz de caracteres. Nessa matriz ele desenha:
+**Desenha tudo na tela, o jogo monta um mapa usando uma matriz de caracteres. Nessa matriz ele desenha:**
 
 bordas do mapa
 
@@ -28,9 +28,9 @@ power-ups
 
 drone aliado
 
-Depois ele imprime tudo no terminal de uma vez.
+_Depois ele imprime tudo no terminal de uma vez._
 
-Logica. Nessa parte o jogo atualiza tudo que está acontecendo:
+**Logica. Nessa parte o jogo atualiza tudo que está acontecendo:**
 
 move o fundo do mapa
 
@@ -46,9 +46,9 @@ cria chefes
 
 aumenta a dificuldade com o tempo
 
-Também verifica se algum tiro acertou um inimigo ou chefe e diminui a vida deles.
+_Também verifica se algum tiro acertou um inimigo ou chefe e diminui a vida deles._
 
-Lê os comandos do jogador. O programa verifica se o jogador apertou alguma tecla:
+**Lê os comandos do jogador. O programa verifica se o jogador apertou alguma tecla:**
 
 W A S D para mover a nave
 
@@ -58,11 +58,11 @@ Q para sair
 
 Quando o jogador atira, um novo tiro é criado e começa a subir na tela.
 
-Durante o jogo, quando o jogador destrói inimigos, ele ganha kills. A cada 10 inimigos destruídos aparece um boss com mais vida e comportamentos diferentes.
+**Durante o jogo, quando o jogador destrói inimigos, ele ganha kills. A cada 10 inimigos destruídos aparece um boss com mais vida e comportamentos diferentes.
 Quando um boss é derrotado, o jogador ganha ajuda de um drone automático, que voa pelo mapa e também atira nos inimigos por um tempo.
-Alguns inimigos também podem deixar power-ups, que melhoram a nave do jogador, aumentando velocidade, dano ou cadência de tiro.
+Alguns inimigos também podem deixar power-ups, que melhoram a nave do jogador, aumentando velocidade, dano ou cadência de tiro.**
 
-A dificuldade vai aumentando com o tempo porque:
+**A dificuldade vai aumentando com o tempo porque:**
 
 os inimigos ficam mais rápidos
 
